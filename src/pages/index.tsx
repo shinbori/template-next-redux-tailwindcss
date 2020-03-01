@@ -1,12 +1,8 @@
 import { NextPage } from 'next'
+import GridContainer from '../components/GridContainer'
 
-const IndexPage: NextPage = () => (
-  <div className="m-4">
-    <div className="p-2 rounded shadow bg-gray-200">
-      <span className="m-1 text-gray-700 text-xl">NEXT.js</span>
-      <span className="m-1 text-gray-500">with Tailwind CSS</span>
-    </div>
-  </div>
-)
+const IndexPage: NextPage = () => {
+  return <GridContainer />
+}
 
 export default IndexPage
